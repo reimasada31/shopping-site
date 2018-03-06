@@ -53,27 +53,29 @@ header .navi {
   header .pc_navi {
     display: none; } }
 @media (min-width: 550px) {
-  header .logo {
-    text-align: left;
-    padding: 20px 0 20px 0; }
-    header .logo .sp_logo {
-      display: none; }
-  header .navi {
-    text-align: right; }
-    header .navi .sp_navi {
-      display: none; }
-    header .navi .pc_navi {
-      display: inline-block;
-      margin-top: 40px; }
-      header .navi .pc_navi li {
-        list-style: none;
+  header {
+    margin-bottom: -30px; }
+    header .logo {
+      text-align: left;
+      padding: 20px 0 20px 0; }
+      header .logo .sp_logo {
+        display: none; }
+    header .navi {
+      text-align: right; }
+      header .navi .sp_navi {
+        display: none; }
+      header .navi .pc_navi {
         display: inline-block;
-        float: left;
-        padding-right: 15px; }
-      header .navi .pc_navi .left_social {
-        padding-right: 30px; }
-      header .navi .pc_navi .social {
-        padding-right: 8px; } }
+        margin-top: 40px; }
+        header .navi .pc_navi li {
+          list-style: none;
+          display: inline-block;
+          float: left;
+          padding-right: 15px; }
+        header .navi .pc_navi .left_social {
+          padding-right: 30px; }
+        header .navi .pc_navi .social {
+          padding-right: 8px; } }
 
 .toggle {
   display: none;
